@@ -1,0 +1,31 @@
+h1{
+background: linear-gradient(to bottom, #FFF 50%, #cef5f3 50%);
+color: #fff5c3;
+color: #ff7260;
+font-family: Papyrus;
+}
+
+h2{
+    color: #3ebfbb;
+}
+
+h3{
+    color: #fff5c3;
+}
+
+p{
+    color: #505050;
+}
+
+a{
+    color: #9dd5d4
+}
+
+.videos{
+    background-color: #505050;
+    padding: 20px;
+    font-style: bold;
+    font-size: 15px;
+    height: 100px;
+    width: 100px;
+}
