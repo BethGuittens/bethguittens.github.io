@@ -1,31 +1,37 @@
-h1{
-background: linear-gradient(to bottom, #FFF 50%, #cef5f3 50%);
-color: #fff5c3;
-color: #ff7260;
-font-family: Papyrus;
+/* Add a black background color to the top navigation */
+.navigation-bar {
+  background-color: #b02185;
+  overflow: hidden;
+  font-family: "Nunito", sans-serif;
 }
 
-h2{
-    color: #3ebfbb;
+/* Style the links inside the navigation bar */
+.navigation-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-h3{
-    color: #fff5c3;
+/* Change the color of links on hover */
+.navigation-bar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-p{
-    color: #505050;
+/* Add a color to the active/current link */
+.navigation-bar a.active {
+  background-color: #b02185;
+  color: white;
 }
 
-a{
-    color: #9dd5d4
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #07adb0;
 }
 
-.videos{
-    background-color: #505050;
-    padding: 20px;
-    font-style: bold;
-    font-size: 15px;
-    height: 100px;
-    width: 100px;
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
