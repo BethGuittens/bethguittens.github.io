@@ -28,10 +28,103 @@
 }
 
 h1 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Comfortaa", Courier, monospace;
   color: #07adb0;
 }
 
-p {
+p,
+ul {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* ---------From calculator css file--------------------------*/
+
+/* *The backdrop */
+
+body {
+  /*
+  background-color: #e2e0e5;
+  */
+}
+
+.buttons-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: auto;
+  margin-block-end: auto;
+  padding-block: 5px;
+}
+
+.number-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: auto;
+  margin-block-end: auto;
+  padding-block: 5px;
+}
+
+.operations-wrapper {
+  display: grid;
+  /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.calculator-space {
+  background: #36008d;
+  /*opacity: 0.7; */
+  width: 50vw;
+  height: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+.operations-area {
+  background-color: white;
+}
+.result-display {
+  background: #ffffff;
+  font-family: "Courier New";
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 8vw;
+  border-radius: 4px;
+  padding: 15px 16px;
+}
+
+/* *Buttons */
+
+.number-button {
+  background-color: #00c9b8;
+  font-family: Courier New;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.operation-button {
+  background-color: #ffb3c1;
+  font-family: Courier New;
+  font-weight: 900;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* * Font */
